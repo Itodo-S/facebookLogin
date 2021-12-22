@@ -1,0 +1,110 @@
+body{
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.facebookLoginContainer{
+    display: flex;
+    width: 969px;
+    margin-top: 100px;
+}
+
+.leftItemsContainer{
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.Facebook{
+    margin-top: -60px;
+    font-weight: bolder;
+    color: #1877f2;
+    font-size: 50px;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.facebookDescription{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-top: -30px;
+}
+
+.rightItemsContiner{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+}
+.facebookForm{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(128, 0, 70);
+    
+
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+
+input{
+    width: 350px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    font-size: 17px;
+}
+
+.emailInput{
+}
+.passwordInput{
+    margin-top: 10px;
+}
+
+button{
+    width: 350px;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 20px;
+    border: none;
+}
+
+.LoginBtn{
+    margin-top: 14px;
+    background-color: #1877f2;
+    color: white;
+}
+.submitBtn{
+    margin-top: 14px;
+    background-color: #42b72a;
+    color: white;
+
+}
+
+a{
+    margin-top: 14px;
+    text-decoration: none;
+}
+
+hr{
+    width: 360px;
+    border:0.5px solid #dadde1;
+    margin-top: 14px;
+    
+}
+
+.para{
+    text-align: center;
+}
